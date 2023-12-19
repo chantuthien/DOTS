@@ -58,25 +58,27 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.SystemAPI.QueryBuilder.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.SystemAPI.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.LambdaJobs.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.Common.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.SystemAPI.Query.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.AspectGenerator.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.Common.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.EntityQueryBulkOperations.dll" />
-    <Analyzer Include="E:\UnityProjects\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.JobEntityGenerator.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.SystemAPI.QueryBuilder.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.SystemAPI.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.LambdaJobs.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.Common.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.SystemAPI.Query.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.AspectGenerator.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.Common.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.EntityQueryBulkOperations.dll" />
+    <Analyzer Include="F:\Private\2.Learn\DOTS\Library\PackageCache\com.unity.entities@1.0.16\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.JobEntityGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Tank\Scripts\TankSpawningSystem.cs" />
     <Compile Include="Assets\Tank\Scripts\TurretAspect.cs" />
     <Compile Include="Assets\Tank\Scripts\ExecuteAuthoring.cs" />
     <Compile Include="Assets\Tank\Scripts\TurretAuthoring.cs" />
     <Compile Include="Assets\Tank\Scripts\CannonBallSystem.cs" />
     <Compile Include="Assets\Tank\Scripts\TurretRotationSystem.cs" />
+    <Compile Include="Assets\Tank\Scripts\ConfigAuthoring.cs" />
     <Compile Include="Assets\Tank\Scripts\TankAuthoring.cs" />
     <Compile Include="Assets\Tank\Scripts\TankMovementSystem.cs" />
     <Compile Include="Assets\Tank\Scripts\TurretShootingSystem.cs" />
@@ -425,18 +427,6 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.GradleProject">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
