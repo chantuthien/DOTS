@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Tank/Tank.unity
+    guid: 3eefd937f263ba34cab9fc0b664688f5
+  - enabled: 1
+    path: Assets/Kickball/Kickball.unity
+    guid: ebf91d86739164d488dd3a72c09cff04
   m_configObjects: {}
