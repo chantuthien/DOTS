@@ -153,22 +153,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a66df6eae6ef54c884fec10bf9bcfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObstaclesNumRows: 4
-  ObstaclesNumColumns: 5
+  ObstaclesNumRows: 30
+  ObstaclesNumColumns: 30
   ObstacleGridCellSize: 15
   ObstacleRadius: 2
   ObstacleOffset: 10
   PlayerOffset: 3
   PlayerSpeed: 7
-  BallStartVelocity: 0
-  BallVelocityDecay: 0
-  BallKickingRange: 0
-  BallKickForce: 0
+  BallStartVelocity: 8
+  BallVelocityDecay: 0.5
+  BallKickingRange: 4
+  BallKickForce: 8
   ObstaclePrefab: {fileID: 8734553223082920981, guid: 60e74fe2c3e795d43802ebda4ea4c254,
     type: 3}
   PlayerPrefab: {fileID: 8489435903547819746, guid: cf95d121c61228f40becb6afff687e59,
     type: 3}
-  BallPrefab: {fileID: 0}
+  BallPrefab: {fileID: 8791046135322651971, guid: eab12ef36b4f6a643a8d56e0b9e3fcdb,
+    type: 3}
 --- !u!4 &613013532
 Transform:
   m_ObjectHideFlags: 0
@@ -199,8 +200,8 @@ MonoBehaviour:
   ObstacleSpawner: 1
   PlayerSpawner: 1
   PlayerMovement: 1
-  BallSpawner: 0
-  BallMovement: 0
+  BallSpawner: 1
+  BallMovement: 1
   NewPlayerMovement: 0
   NewBallMovement: 0
   BallCarry: 0
