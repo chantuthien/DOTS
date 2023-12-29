@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using Unity.Entities;
 using UnityEngine;
 
@@ -20,5 +18,5 @@ public class PlayerAuthoring : MonoBehaviour
 public struct Player : IComponentData { }
 public struct Carry : IComponentData, IEnableableComponent
 {
-    public Entity target;
+    public Entity Target;
 }

@@ -78,6 +78,7 @@
     <Compile Include="Assets\Kickball\Scripts\BallSpawnerSystem.cs" />
     <Compile Include="Assets\Kickball\Scripts\BallAuthoring.cs" />
     <Compile Include="Assets\Kickball\Scripts\PlayerAuthoring.cs" />
+    <Compile Include="Assets\Kickball\Scripts\BallKickingSystem.cs" />
     <Compile Include="Assets\Kickball\Scripts\ExecuteAuthoring.cs" />
     <Compile Include="Assets\Tank\Scripts\TurretAuthoring.cs" />
     <Compile Include="Assets\Kickball\Scripts\PlayerSpawnerSystem.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Assets\Tank\Scripts\TankAuthoring.cs" />
     <Compile Include="Assets\Kickball\Scripts\NewPlayerMovementSystem.cs" />
     <Compile Include="Assets\Kickball\Scripts\ObstacleSpawnerSystem.cs" />
+    <Compile Include="Assets\Kickball\Scripts\BallCarrySystem.cs" />
     <Compile Include="Assets\Tank\Scripts\CameraSystem.cs" />
     <Compile Include="Assets\Tank\Scripts\SafeZoneSystem.cs" />
     <Compile Include="Assets\Kickball\Scripts\NewBallMovementSystem.cs" />

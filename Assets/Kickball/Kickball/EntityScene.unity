@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a66df6eae6ef54c884fec10bf9bcfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObstaclesNumRows: 30
-  ObstaclesNumColumns: 30
+  ObstaclesNumRows: 5
+  ObstaclesNumColumns: 5
   ObstacleGridCellSize: 15
   ObstacleRadius: 2
   ObstacleOffset: 10
@@ -204,8 +204,8 @@ MonoBehaviour:
   BallMovement: 1
   NewPlayerMovement: 0
   NewBallMovement: 0
-  BallCarry: 0
-  BallKicking: 0
+  BallCarry: 1
+  BallKicking: 1
 --- !u!1 &1471367446
 GameObject:
   m_ObjectHideFlags: 0

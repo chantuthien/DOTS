@@ -44,7 +44,6 @@ partial struct TankSpawningSystem : ISystem
     private float4 RandomColor(ref Random random)
     {
         var hue = (random.NextFloat() + 0.618034005f) % 1;
-        Debug.Log(hue);
         return (Vector4)Color.HSVToRGB(hue, 1f, 1f);
     }
 }
